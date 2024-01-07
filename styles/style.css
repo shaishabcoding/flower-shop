@@ -90,3 +90,18 @@
   height: 70px;
   width: 70px;
 }
+.hot-deal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  padding: 80px 0;
+}
+.hot-deal .text {
+  max-width: 475px;
+}
+.img-container img {
+  width: 250px;
+}
