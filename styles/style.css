@@ -1,7 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;800&display=swap");
+
 * {
   margin: 0;
   padding: 0;
-  /* font-family: Lato; */
+  font-family: "Lato", sans-serif;
 }
 .banner {
   padding: 0 160px;
@@ -161,12 +163,8 @@ footer {
 }
 .copyright {
   color: rgba(255, 255, 255, 0.4);
-  text-align: center;
-  font-family: Lato;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
 }
 .white {
   color: white;
