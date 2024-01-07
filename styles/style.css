@@ -105,3 +105,15 @@
 .img-container img {
   width: 250px;
 }
+.instagram{
+  text-align: center;
+  padding: 80px 100px;
+}
+.instagram .text{
+  width: 50%;
+  margin: 0 auto;
+}
+.instagram .img-container{
+  display: flex;
+  justify-content: space-around;
+}
