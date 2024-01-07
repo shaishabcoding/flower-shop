@@ -127,17 +127,47 @@
   margin-top: 100px;
   border-radius: 5px;
 }
-.subscribe form{
+.subscribe form {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
 }
-.subscribe input{
+.subscribe input {
   display: inline-block;
   padding: 15px 20px;
   outline: 0;
   border: 0;
   width: 60%;
   border-radius: 5px;
+}
+footer {
+  background: #111010;
+  padding: 100px 160px;
+  text-align: center;
+  color: white;
+}
+.footer-title {
+  color: #e55473;
+  font-size: 38px;
+  font-weight: 800;
+}
+.footer-description {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 15px;
+  font-weight: 400;
+  width: 60%;
+  margin: 20px auto 26px;
+}
+.copyright {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.white {
+  color: white;
 }
