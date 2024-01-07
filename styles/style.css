@@ -9,10 +9,10 @@
   display: flex;
   gap: 100px;
   justify-content: space-between;
-  align-items: center;
 }
 .banner .container {
   width: 88%;
+  padding: 100px 0;
 }
 .banner .title {
   color: #272727;
@@ -105,15 +105,39 @@
 .img-container img {
   width: 250px;
 }
-.instagram{
-  text-align: center;
-  padding: 80px 100px;
+.more {
+  padding: 100px 160px;
 }
-.instagram .text{
+.instagram {
+  text-align: center;
+}
+.instagram .text {
   width: 50%;
   margin: 0 auto;
 }
-.instagram .img-container{
+.instagram .img-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+}
+.subscribe {
+  background: url("../images/Rectangle 9.png");
+  background-size: cover;
+  padding: 90px;
+  text-align: center;
+  margin-top: 100px;
+  border-radius: 5px;
+}
+.subscribe form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.subscribe input{
+  display: inline-block;
+  padding: 15px 20px;
+  outline: 0;
+  border: 0;
+  width: 60%;
+  border-radius: 5px;
 }
